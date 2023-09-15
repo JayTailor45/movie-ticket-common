@@ -15,4 +15,4 @@ Library contains following
 
 #### Update library in consumer project
 
-1. Run `npm update @tj-movie-ticket/common`
+1. Run `npm update @tj-movies-ticket/common`
