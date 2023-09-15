@@ -1,0 +1,29 @@
+{
+  "name": "@tj-movie-ticket/common",
+  "version": "0.0.0",
+  "description": "Shared library for movie ticket microservice app",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc"
+  },
+  "keywords": [],
+  "author": "jaytailor45",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cookie-session": "^2.0.44",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "cookie-session": "^2.0.0",
+    "del-cli": "^5.1.0",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "node-nats-streaming": "^0.3.2",
+    "typescript": "^5.2.2"
+  }
+}
