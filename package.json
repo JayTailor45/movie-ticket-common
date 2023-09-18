@@ -12,8 +12,8 @@
     "build": "npm run clean && tsc",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "docker-build": "docker build -t jaytailor45/movie-ticket-authentication .",
-    "docker-push": "docker push jaytailor45/movie-ticket-authentication"
+    "minor-update": "npm version minor",
+    "publish": "npm publish"
   },
   "husky": {
     "hooks": {
