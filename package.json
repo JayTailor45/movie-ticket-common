@@ -1,6 +1,6 @@
 {
   "name": "@tj-movies-ticket/common",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Shared library for movie ticket microservice app",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
