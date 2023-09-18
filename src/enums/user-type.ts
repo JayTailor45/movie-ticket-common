@@ -1,0 +1,5 @@
+export enum UserType {
+  END_USER = "END_USER",
+  FRANCHISE_USER = "FRANCHISE_USER",
+  ADMIN_USER = "ADMIN_USER_USER",
+}

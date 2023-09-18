@@ -9,7 +9,16 @@
   ],
   "scripts": {
     "clean": "del ./build/*",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "docker-build": "docker build -t jaytailor45/movie-ticket-authentication .",
+    "docker-push": "docker push jaytailor45/movie-ticket-authentication"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm format && git add -A ."
+    }
   },
   "keywords": [],
   "author": "jaytailor45",
@@ -25,5 +34,9 @@
     "jsonwebtoken": "^9.0.2",
     "node-nats-streaming": "^0.3.2",
     "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3"
   }
 }
