@@ -6,8 +6,8 @@ export interface ShowCreatedEvent {
     id: string;
     price: number;
     capacity: number;
-    startTime: Date;
-    endTime: Date;
+    startTime: string;
+    endTime: string;
     movie: string;
     franchise: string;
     version: number;
