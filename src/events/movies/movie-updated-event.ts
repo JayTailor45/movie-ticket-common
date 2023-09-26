@@ -6,7 +6,7 @@ export interface MovieUpdatedEvent {
     id: string;
     name: string;
     description: string;
-    releaseDate: Date;
+    releaseDate: string;
     genres: string[];
     languages: string[];
     director: string;
