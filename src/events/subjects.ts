@@ -4,4 +4,7 @@ export enum Subjects {
 
   MOVIE_CREATED = "movie:created",
   MOVIE_UPDATED = "movie:updated",
+
+  SHOW_CREATED = "show:created",
+  SHOW_UPDATED = "show:updated",
 }

@@ -13,3 +13,4 @@ export * from "./events/subjects";
 // events
 export * from "./events/franchise";
 export * from "./events/movies";
+export * from "./events/shows";
