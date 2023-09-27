@@ -14,3 +14,4 @@ export * from "./events/subjects";
 export * from "./events/franchise";
 export * from "./events/movies";
 export * from "./events/shows";
+export * from "./events/users";
