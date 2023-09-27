@@ -9,5 +9,6 @@ export interface FranchiseUpdatedEvent {
     address: string;
     city: string;
     version: number;
+    user: string;
   };
 }
