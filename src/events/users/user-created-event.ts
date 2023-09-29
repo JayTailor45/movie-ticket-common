@@ -9,7 +9,7 @@ export interface UserCreatedEvent {
     password: string;
     city: string;
     username: string;
-    gender: UserType;
+    gender: string;
     type: UserType;
     version: number;
   };
