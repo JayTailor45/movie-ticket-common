@@ -10,4 +10,7 @@ export enum Subjects {
 
   SHOW_CREATED = "show:created",
   SHOW_UPDATED = "show:updated",
+
+  ORDER_CREATED = "order:created",
+  ORDER_CANCELLED = "order:cancelled",
 }
