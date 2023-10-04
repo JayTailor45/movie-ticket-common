@@ -16,3 +16,4 @@ export * from "./events/movies";
 export * from "./events/shows";
 export * from "./events/users";
 export * from "./events/order";
+export * from "./events/expiration";
